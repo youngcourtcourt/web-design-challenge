@@ -9,25 +9,19 @@
 
 #mainTitle{
     font-family:Pacifico;
-    font-size:50px;
+    font-size:100%;
 }
 .bg-blue{
     background-color: #E1F1E5;
-    padding: 5%;
-    margin: 5%;
 }
 
-.header2{
+.peach{
     background-color: #F1AA86;
-  width: 200px;
-  height:50px;
-  padding: 10px;
-  margin: 20px;
+    text-align: center;
 }
 
 
 .mustard-yellow{
-    /* position: sticky; */
     background-color:#F7D74A;
 }
 
@@ -37,4 +31,29 @@
 
 .teal{
     background-color: #51A499;
+}
+
+.main-image{
+    margin: 5%;
+    width: 50%;
+}
+
+.box{
+    width: auto;
+    padding: 5%;
+    margin: 5%;
+}
+
+.text{
+    font-size: small;
+    text-align: center;
+}
+.what-we-do{
+    text-align: justify;
+    
+
+}
+
+.white-box{
+    background-color: white;
 }
