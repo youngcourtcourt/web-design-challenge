@@ -16,6 +16,10 @@
     font-family: 'Noto Sans', sans-serif;
 }
 
+.open-sans{
+    font-family: 'Open Sans', sans-serif;
+}
+
 .text{
     font-size: small;
     text-align: center;
@@ -37,6 +41,12 @@ p{
 
 h3 {
     font-family: 'DM Serif Text';
+}
+
+h6{
+    font-family: 'Open Sans';
+    font-size: medium;
+    text-align: bottom;
 }
 
 /* Colors */
@@ -102,10 +112,15 @@ h3 {
     text-align: right;
     margin: 0%;
     width: auto;
+    font-family: 'DM Serif Text';
 }
 
 .wide-margin{
     margin: 5%;
+}
+
+.bottom-margin{
+    margin-bottom: 5%;
 }
 
 .tab{
@@ -125,11 +140,12 @@ h3 {
     margin-top: 0%;
     margin-right:0%;
     margin-left:2%;
-    text-align: center;
+    text-align: bottom;
     padding: 1%;
     background-color: #AFE9C2;
-    font-size: medium;
-    width: 15%;
+    font-size: large;
+    width: 14%;
+    font-family: 'DM Serif Text';
 }
 
 .main-tab:hover{
