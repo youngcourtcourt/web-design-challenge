@@ -43,6 +43,7 @@ h3 {
     font-family: 'DM Serif Text';
 }
 
+
 h6{
     font-family: 'Open Sans';
     font-size: medium;
@@ -109,9 +110,23 @@ h6{
 }
 
 .fancy-box{
-    width: 100%;
+    width: 90%;
+    position: relative;
+    left: 10px;
+    bottom: 10px;
     padding: 5%;
     margin: 0%;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    text-align: center;
+}
+
+.fancy-box-back{
+    position: absolute;
+    width: 90%;
+    padding: 5%;
+    margin: 0%;
+    height: 60px;
     border-top-left-radius: 12px;
     border-bottom-right-radius: 12px;
     text-align: center;
