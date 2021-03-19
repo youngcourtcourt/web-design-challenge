@@ -71,7 +71,7 @@
 
 .main-image{
     margin: 0%;
-    width: 50%;
+    width: 100%;
 }
 
 /* Boxes */
@@ -111,6 +111,7 @@ li{
 .btn{
     background-color: #B0DA7E;
     border-style: none;
+    margin: 10%;
 }
 
 .btn-primary:hover{
