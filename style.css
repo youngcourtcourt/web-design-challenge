@@ -1,18 +1,29 @@
+/* Effects */
+
 .card:hover .card-img-overlay{
     transform: scale(1.05);
  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }
 
-.body{
-    background-color: #FAF8E3;
-}
+/* Fonts */
 
 #mainTitle{
     font-family:Pacifico;
     font-size:100%;
 }
+
+.text{
+    font-size: small;
+    text-align: center;
+}
+
+/* Colors */
 .bg-blue{
     background-color: #E1F1E5;
+}
+
+.apple-red{
+    background-color: #E44A6D;
 }
 
 .peach{
@@ -20,40 +31,55 @@
     text-align: center;
 }
 
-
-.mustard-yellow{
-    background-color:#F7D74A;
+.soft-olive{
+    background-color: #E4E7D0;
 }
 
-.content{
-    background-color: white;
+.seafoam{
+    background-color: #AFE9C2;
 }
+
 
 .teal{
     background-color: #51A499;
 }
 
+.mustard-yellow{
+    background-color:#F7D74A;
+}
+
+.grass-green{
+    background-color: #B0DA7E;
+}
+
+.sand{
+    background-color: #FAF8E3;
+}
+
+.white{
+    background-color: white;
+}
+
+/* Images */
+
 .main-image{
     margin: 5%;
-    width: 50%;
+    width: 100%;
 }
+
+/* Boxes */
 
 .box{
     width: auto;
     padding: 5%;
-    margin: 5%;
+    margin: 0%;
 }
 
-.text{
-    font-size: small;
-    text-align: center;
-}
 .what-we-do{
-    text-align: justify;
-    
-
+    text-align: center;
+    margin: 10%;
 }
 
-.white-box{
-    background-color: white;
+.wide-margin{
+    margin: 5%;
 }
