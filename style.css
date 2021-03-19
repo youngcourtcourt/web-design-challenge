@@ -12,6 +12,10 @@
     font-size:100%;
 }
 
+.noto-sans{
+    font-family: 'Noto Sans', sans-serif;
+}
+
 .text{
     font-size: small;
     text-align: center;
@@ -25,6 +29,16 @@
     font-size: medium;
     text-align: left;
 }
+
+p{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: small; 
+}
+
+h3 {
+    font-family: 'DM Serif Text';
+}
+
 /* Colors */
 .bg-blue{
     background-color: #E1F1E5;
@@ -71,7 +85,7 @@
 /* Images */
 
 .main-image{
-    margin: 0%;
+    margin-top: 15%;
     width: 100%;
 }
 
@@ -87,6 +101,7 @@
 .what-we-do{
     text-align: right;
     margin: 0%;
+    width: auto;
 }
 
 .wide-margin{
