@@ -80,11 +80,12 @@
     width: auto;
     padding: 5%;
     margin: 0%;
+    align-items: center;
 }
 
 .what-we-do{
-    text-align: center;
-    margin: 10%;
+    text-align: right;
+    margin: 0%;
 }
 
 .wide-margin{
