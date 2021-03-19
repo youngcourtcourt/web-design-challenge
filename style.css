@@ -23,6 +23,7 @@
 
 .card-title{
     font-size: medium;
+    text-align: left;
 }
 /* Colors */
 .bg-blue{
@@ -106,12 +107,18 @@
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
     margin-bottom: 0%;
+    margin-top: 0%;
     margin-right:0%;
-    margin-left:10%;
+    margin-left:2%;
     text-align: center;
     padding: 1%;
     background-color: #AFE9C2;
     font-size: medium;
+    width: 15%;
+}
+
+.main-tab:hover{
+    background-color: #B0DA7E;
 }
 
 .tab:hover{
