@@ -2,7 +2,7 @@
 
 .card:hover .card-img-overlay{
     transform: scale(1.05);
- box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+ box-shadow: 0 10px 20px #B0DA7E, 0 4px 8px #B0DA7E;
 }
 
 /* Fonts & texts */
@@ -98,16 +98,24 @@
     margin-bottom: 0%;
     margin-right:0%;
     margin-left:0%;
+    text-align: bottom;
+    padding-bottom: 1%;
+}
+
+.main-tab{
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    margin-bottom: 0%;
+    margin-right:0%;
+    margin-left:10%;
     text-align: center;
     padding: 1%;
+    background-color: #AFE9C2;
+    font-size: medium;
 }
 
 .tab:hover{
     background-color: #E44A6D;
-}
-/* Lists */
-li{
-    display: inline-block;
 }
 
 /* buttons */
