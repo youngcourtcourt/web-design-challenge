@@ -105,3 +105,14 @@
 li{
     display: inline-block;
 }
+
+/* buttons */
+
+.btn{
+    background-color: #B0DA7E;
+    border-style: none;
+}
+
+.btn-primary:hover{
+    background: #33a6cc;
+}
