@@ -105,14 +105,26 @@ h6{
     width: auto;
     padding: 5%;
     margin: 0%;
-    ;
+
+}
+
+.fancy-box{
+    width: 100%;
+    padding: 5%;
+    margin: 0%;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    text-align: center;
 }
 
 .what-we-do{
-    text-align: right;
+    text-align: center;
     margin: 0%;
     width: auto;
     font-family: 'DM Serif Text';
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    
 }
 
 .wide-margin{
