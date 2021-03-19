@@ -21,6 +21,9 @@
     font-size: 100px;
 }
 
+.card-title{
+    font-size: medium;
+}
 /* Colors */
 .bg-blue{
     background-color: #E1F1E5;
