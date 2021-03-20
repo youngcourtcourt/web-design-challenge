@@ -293,3 +293,9 @@ body{
     background-attachment: fixed;
     background-size: cover;
 }
+.baby-blue-body{
+    background: url('babyBlueTriangles.png') #FAF8E3;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
