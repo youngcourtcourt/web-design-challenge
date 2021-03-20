@@ -143,7 +143,6 @@ h6{
 /* Images */
 
 .main-image{
-    margin-top: 15%;
     width: 100%;
 }
 
@@ -183,9 +182,9 @@ h6{
 }
 
 .back-box{
-    width: auto;
-    padding: 5%;
-    margin: 0%;
+    width: 100%;
+    height: 100%;
+    padding:2%;
     background-color: #B0DA7E;
 }
 
