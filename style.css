@@ -299,3 +299,17 @@ body{
     background-attachment: fixed;
     background-size: cover;
 }
+
+.mustard-yellow-body{
+    background: url('mustardYellowTriangles.png') #FAF8E3;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.mandarin-body{
+    background: url('mandarinTriangles.png') #FAF8E3;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
