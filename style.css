@@ -44,10 +44,16 @@
 }
 
 .card-title{
+    visibility: visible;
     font-size: medium;
     text-align: left;
     color: black;
 }
+
+.card text{
+    visibility: hidden;
+}
+
 
 p{
     font-family: 'Noto Sans', sans-serif;
@@ -64,9 +70,9 @@ h3 {
 
 
 h6{
-    font-family: 'Open Sans';
     font-size: medium;
-    text-align: bottom;
+    text-align: center;
+    color: black;
 }
 
 .side-page-title{
@@ -244,16 +250,13 @@ h6{
     cursor: pointer;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
-    margin-bottom: 0%;
     margin-top: 0%;
     margin-right:0%;
     margin-left:3%;
     text-align: center;
     padding: 1%;
     background-color: #AFE9C2;
-    font-size: 14%;
     width: 14%;
-    font-family: 'DM Serif Text';
     
 }
 
