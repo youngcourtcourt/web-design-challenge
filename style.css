@@ -190,6 +190,13 @@ h6{
 
 }
 
+.data-box{
+    width: auto;
+    padding: 2%;
+    margin: 0%;
+
+}
+
 .fancy-box{
     width: 90%;
     position: relative;
@@ -333,6 +340,13 @@ body{
 
 .blue-squiggle-body{
     background: url('blueSquiggles.png') #FAF8E3;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.mint-dots-body{
+    background: url('mintDots.png') #FAF8E3;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
