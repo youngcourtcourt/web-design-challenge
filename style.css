@@ -29,6 +29,13 @@
     font-size: 100px;
 }
 
+#mainTitleShadow{
+    position: absolute;
+    font-size: 100px;
+    z-index:100;
+
+}
+
 .card-title{
     font-size: medium;
     text-align: left;
@@ -246,6 +253,13 @@ h6{
 
 body{
     background: url('AppleRedTriangles.png') #FAF8E3;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.violet-body{
+    background: url('violetTriangles.png') #FAF8E3;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
