@@ -5,6 +5,18 @@
  box-shadow: 0 10px 20px #E4E7D0, 0 4px 8px #E4E7D0
 }
 
+.card:hover .card-title{
+    visibility: visible;
+}
+
+.card-title{
+    visibility: hidden;
+    font-size: medium;
+    text-align: left;
+    color: black;
+}
+
+
 /* Fonts & texts */
 
 .pacifico{
@@ -43,12 +55,6 @@
     color:#F1AA86;
 }
 
-.card-title{
-    visibility: visible;
-    font-size: medium;
-    text-align: left;
-    color: black;
-}
 
 
 p{
@@ -170,7 +176,8 @@ h6{
 
 .main-image{
     width: 100%;
-}
+    height: 100%;
+} 
 
 
 /* Boxes */
