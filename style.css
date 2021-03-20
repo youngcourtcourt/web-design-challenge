@@ -163,22 +163,23 @@ h6{
     left: 10px;
     bottom: 10px;
     padding: 5%;
+    height: 60px;
     margin: 0%;
     border-top-left-radius: 12px;
     border-bottom-right-radius: 12px;
     text-align: center;
+    z-index:100;
 }
 
 .fancy-box-back{
     position: absolute;
     width: 90%;
-    padding: 5%;
-    margin: 0%;
+    padding-right:10%;
     height: 60px;
     border-top-left-radius: 12px;
     border-bottom-right-radius: 12px;
     text-align: center;
-
+    z-index: 100;
 }
 
 .back-box{
