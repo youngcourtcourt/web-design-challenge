@@ -27,13 +27,16 @@
 
 #mainTitle{
     font-size: 100px;
+    padding-left: 0.5%;
 }
 
 #mainTitleShadow{
     position: absolute;
     font-size: 100px;
-    z-index:100;
-
+    z-index:-100;
+    padding-top: 0.5%;
+    padding-right: 0.5%;
+    color:#F1AA86;
 }
 
 .card-title{
