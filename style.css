@@ -137,6 +137,9 @@ h6{
     width: 100%;
 }
 
+.triangle-boy-hours{
+    background-image="AppleRedTrianglespng.png";
+}
 
 /* Boxes */
 
@@ -240,4 +243,13 @@ h6{
 
 .btn-primary:hover{
     background: #33a6cc;
+}
+
+/* Sections */
+
+body{
+    background: url('AppleRedTriangles.png') #FAF8E3;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
