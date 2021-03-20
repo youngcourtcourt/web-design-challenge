@@ -2,7 +2,7 @@
 
 .card:hover .card-img-overlay{
     transform: scale(1.05);
- box-shadow: 0 10px 20px #B0DA7E, 0 4px 8px #B0DA7E;
+ box-shadow: 0 10px 20px #E4E7D0, 0 4px 8px #E4E7D0
 }
 
 /* Fonts & texts */
@@ -37,6 +37,10 @@
 p{
     font-family: 'Noto Sans', sans-serif;
     font-size: small; 
+}
+
+h2{
+    font-size: 30px;
 }
 
 h3 {
@@ -100,6 +104,7 @@ h6{
     width: 100%;
 }
 
+
 /* Boxes */
 
 .box{
@@ -130,6 +135,14 @@ h6{
     border-top-left-radius: 12px;
     border-bottom-right-radius: 12px;
     text-align: center;
+
+}
+
+.back-box{
+    width: auto;
+    padding: 5%;
+    margin: 0%;
+    background-color: #B0DA7E;
 }
 
 .what-we-do{
@@ -166,17 +179,18 @@ h6{
     margin-bottom: 0%;
     margin-top: 0%;
     margin-right:0%;
-    margin-left:2%;
-    text-align: bottom;
+    margin-left:3%;
+    text-align: center;
     padding: 1%;
     background-color: #AFE9C2;
-    font-size: large;
+    font-size: 14%;
     width: 14%;
     font-family: 'DM Serif Text';
+    box-shadow: -3px 1px 1px #1a4d39
 }
 
 .main-tab:hover{
-    background-color: #B0DA7E;
+    background-color: #E44A6D;
 }
 
 .tab:hover{
