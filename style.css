@@ -12,8 +12,9 @@
 .card-title{
     visibility: hidden;
     font-size: medium;
-    text-align: left;
-    color: black;
+    text-align: center;
+    color: #225750;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 
@@ -275,9 +276,9 @@ h6{
 
 }
 
-.tab:hover{
+/* .tab:hover{
     background-color: #E44A6D;
-}
+} */
 
 /* buttons */
 
@@ -322,6 +323,13 @@ body{
 
 .mandarin-body{
     background: url('mandarinTriangles.png') #FAF8E3;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.blue-squiggle-body{
+    background: url('blueSquiggles.png') #FAF8E3;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
