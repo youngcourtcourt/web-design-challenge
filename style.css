@@ -247,6 +247,8 @@ h6{
     margin-bottom: 5%;
 }
 
+/* Tabs */
+
 .tab{
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
@@ -255,6 +257,7 @@ h6{
     margin-left:0%;
     text-align: bottom;
     padding-bottom: 1%;
+    
 }
 
 .main-tab{
@@ -268,12 +271,12 @@ h6{
     padding: 1%;
     background-color: #AFE9C2;
     width: 14%;
+    box-shadow: -3px 0px 0px #1a4d39
     
 }
 
 .main-tab:hover{
-    box-shadow: -3px 0px 0px #1a4d39;
-
+    background-color: #E44A6D;
 }
 
 /* .tab:hover{
@@ -334,3 +337,6 @@ body{
     background-attachment: fixed;
     background-size: cover;
 }
+
+/* Tables */
+
