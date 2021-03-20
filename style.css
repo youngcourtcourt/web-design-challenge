@@ -210,8 +210,15 @@ h6{
 .back-box{
     width: 100%;
     height: 100%;
-    padding:2%;
-    background-color: #B0DA7E;
+    padding:0%;
+    background-color: #d3eed5;
+}
+
+.back-box-main{
+    width: 100%;
+    height: 65%;
+    padding:0%;
+    background-color: #d3eed5;
 }
 
 .what-we-do{
