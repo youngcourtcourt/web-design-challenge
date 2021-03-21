@@ -354,3 +354,41 @@ body{
 
 /* Tables */
 
+/* Pagination */
+
+.pagination > li > a
+{
+    background-color: white;
+    color:#225750;
+    font-family: 'Open Sans', sans-serif;
+    border-color: #E4E7D0;
+}
+
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover
+{
+    color: #225750;
+    background-color: white;
+    border-color: #E4E7D0;
+}
+
+.pagination > .active > a
+{
+    color: #225750;
+    background-color: #F7D74A !Important;
+    border: solid 1px #E4E7D0 !Important;
+}
+
+.pagination > .disabled > a
+{
+    color: #E4E7D0 !Important;
+    border: solid 1px #E4E7D0 !Important;
+}
+
+.pagination > .active > a:hover
+{
+    background-color: #ffc76d !Important;
+}
+
