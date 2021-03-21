@@ -392,3 +392,10 @@ body{
     background-color: #ffc76d !Important;
 }
 
+/* Images */
+
+.comparison-image{
+    width: 110%;
+    margin: 1%;
+}
+
