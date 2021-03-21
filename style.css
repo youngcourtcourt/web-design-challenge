@@ -73,7 +73,7 @@ h3 {
 
 
 h6{
-    font-size: medium;
+    font-size: 1.1vw;
     text-align: center;
     color: black;
 }
@@ -359,9 +359,9 @@ body{
 .pagination > li > a
 {
     background-color: white;
-    color:#225750;
+    color:#2d7c72;
     font-family: 'Open Sans', sans-serif;
-    border-color: #E4E7D0;
+    border-color: white;
 }
 
 .pagination > li > a:focus,
@@ -369,27 +369,29 @@ body{
 .pagination > li > span:focus,
 .pagination > li > span:hover
 {
-    color: #225750;
-    background-color: white;
+    color: #2d7c72;
+    background-color: #caf6cc;
     border-color: #E4E7D0;
 }
 
 .pagination > .active > a
 {
-    color: #225750;
-    background-color: #F7D74A !Important;
+    color: #2d7c72;
+    background-color: #B0DA7E !Important;
     border: solid 1px #E4E7D0 !Important;
 }
 
 .pagination > .disabled > a
 {
     color: #E4E7D0 !Important;
-    border: solid 1px #E4E7D0 !Important;
+    border: solid 1px white !Important;
+    background-color: #E4E7D0;
+    border-color: #E4E7D0;
 }
 
 .pagination > .active > a:hover
 {
-    background-color: #ffc76d !Important;
+    background-color: #caf6cc !Important;
 }
 
 /* Images */
